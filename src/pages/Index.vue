@@ -2,9 +2,12 @@
   <Layout :showFooter= "true">
     
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/assets/images/favicon.png" height="200" width="200" fit="cover"/>
+    <div style="text-align:center;">
+      <g-image alt="Example image" src="~/assets/images/Profile.png" height="200" width="200" fit="cover"/>
+      <h1>Chongwen Li</h1>
+
+    </div>
     
-    <h1>Chongwen Li</h1>
    
     <p>
       Newly graduated computer science master student. Learning new technology and improving everyday
@@ -33,5 +36,8 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+.home-links {
+  text-align: center;
 }
 </style>
